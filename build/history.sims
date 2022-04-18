@@ -1,0 +1,13 @@
+Sun Apr 10 13:31:08 EDT 2022 sims -sys=manycore -x_tiles=1 -y_tiles=1 -vcs_build 
+Sun Apr 10 16:08:11 EDT 2022 sims -sys=manycore -x_tiles=1 -y_tiles=1 -vcs_build -ariane 
+Sun Apr 10 16:08:58 EDT 2022 sims -sys=manycore -x_tiles=1 -y_tiles=1 -vcs_run -ariane hello_world_many.c 
+Sun Apr 10 16:46:10 EDT 2022 sims -sys=manycore -x_tiles=1 -y_tiles=1 -vcs_run -ariane hello_world.c 
+Sun Apr 10 16:47:21 EDT 2022 sims -sys=manycore -x_tiles=1 -y_tiles=1 -vcs_run -ariane hello_world.c 
+Mon Apr 11 17:41:43 EDT 2022 sims -sys=manycore -x_tiles=1 -y_tiles=1 -vcs_build -ariane 
+Mon Apr 11 17:42:11 EDT 2022 sims -sys=manycore -x_tiles=1 -y_tiles=1 -vcs_run -ariane hello_world_many.c 
+Mon Apr 11 23:43:44 EDT 2022 sims -sys=manycore -x_tiles=1 -y_tiles=1 -vcs_run -ariane hello_world_many.c 
+Mon Apr 11 23:49:51 EDT 2022 sims -sys=manycore -msm_run -x_tiles=1 -y_tiles=1 rv64ui-p-addi.S -ariane -precompiled 
+Mon Apr 11 23:50:07 EDT 2022 sims -sys=manycore -vcs_run -x_tiles=1 -y_tiles=1 rv64ui-p-addi.S -ariane -precompiled 
+Tue Apr 12 15:36:09 EDT 2022 sims -sys=manycore -vcs_run -x_tiles=1 -y_tiles=1 rv64ui-p-addi.S -ariane -precompiled 
+Wed Apr 13 14:52:00 EDT 2022 sims -sys=manycore -x_tiles=1 -y_tiles=1 -vcs_build -ariane 
+Wed Apr 13 14:53:12 EDT 2022 sims -sys=manycore -x_tiles=1 -y_tiles=1 -vcs_run -ariane hello_world_many.c 

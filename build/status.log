@@ -1,0 +1,6 @@
+Diag: build                                      PASS
+Wed Apr 13 14:53:17 EDT 2022
+sim.log: 60670500: Simulation -> PASS (HIT GOOD TRAP)
+Cyc=      60670, Sec=     4.200, C/S=14445.2
+ExecCyc=      60670, Sec=     4.200, EC/S=14445.2
+NumTiles=         0

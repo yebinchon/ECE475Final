@@ -1,0 +1,355 @@
+/home/yc0769/ece475/proj/openpiton/build/manycore/rel-0.1/config.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/axi_lite_slave_rf/rtl/axi_lite_slave_rf.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_ctrl/rtl/bram_map.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_ctrl/rtl/ciop_iob.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_ctrl/rtl/eth_top.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/components/rtl/io_xbar_one_of_n.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/components/rtl/io_xbar_one_of_n_plus_3.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/components/rtl/io_xbar_bus_compare_equal.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/components/rtl/io_xbar_flip_bus.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/components/rtl/io_xbar_net_dff.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/dynamic/rtl/io_xbar_input_control.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/dynamic/rtl/io_xbar_input_route_request_calc.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/dynamic/rtl/io_xbar_input_top_16.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/dynamic/rtl/io_xbar_input_top_4.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/dynamic/rtl/io_xbar_output_control.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/dynamic/rtl/io_xbar_output_datapath.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/dynamic/rtl/io_xbar_output_top.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/common/rtl/io_xbar_space_avail_top.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/rtl/io_xbar_top.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/io_xbar/rtl/io_xbar_top_wrap.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/noc_axilite_bridge/rtl/noc_axilite_bridge.v
+/home/yc0769/ece475/proj/openpiton/piton/verif/env/common/fake_mem_ctrl.v
++incdir+/home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/../../../design/include
++incdir+/home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/../../../design/chipset/include
++incdir+/home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/.
+/home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/cross_module.tmp.h
+/home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/manycore_network_mon.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/sas_intf.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/monitor.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/sas_tasks.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/pc_cmp.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/sas_task.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/l_cache_mon.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/thrfsm_mon.v // monitors for X's in the processor states
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/sparc_pipe_flow.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/multicycle_mon.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/dmbr_mon.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/cmp_pcxandcpx.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/tso_mon.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/lsu_mon.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/lsu_mon2.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/exu_mon.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/mask_mon.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/pc_muxsel_mon.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/nukeint_mon.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/stb_ovfl_mon.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/icache_mutex_mon.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/nc_inv_chk.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/tlu_mon.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/softint_mon.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/slam_init.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/ciop_iob.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/cmp_l15_messages_mon.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/jtag_mon.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/l2_mon.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/async_fifo_mon.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/iob_mon.v
+/home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/fake_pll.v
+/home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/manycore_top.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/verif/env/manycore/fake_uart.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/chip_bridge/rtl/sync_fifo.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/chip_bridge/rtl/chip_bridge_rcv_32.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/chip_bridge/rtl/chip_bridge_send_32.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/chip_bridge/rtl/chip_net_chooser_32.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/chip_bridge/rtl/chip_bridge.v
+/home/yc0769/ece475/proj/openpiton/piton/design/common/fpga_bridge/fpga_rcv/rtl/fpga_bridge_rcv_32.v
+/home/yc0769/ece475/proj/openpiton/piton/design/common/fpga_bridge/fpga_send/rtl/fpga_bridge_send_32.v
+/home/yc0769/ece475/proj/openpiton/piton/design/common/fpga_bridge/fpga_send/rtl/fpga_net_chooser_32.v
+/home/yc0769/ece475/proj/openpiton/piton/design/common/fpga_bridge/rtl/fpga_bridge.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/rtl/chipset.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/rtl/chipset_impl.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/rtl/chipset_impl_noc_power_test.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/rtl/storage_addr_trans.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/rtl/storage_addr_trans_unified.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/rtl/packet_filter.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_amo_alu.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_data.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_data_wrap.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_data_pgen.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_data_ecc.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_decoder.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_dir.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_dir_wrap.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_encoder.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_mshr.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_mshr_decoder.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_mshr_wrap.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1_buf_in.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1_buf_out.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1_ctrl.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe1_dpath.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe2.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe2_buf_in.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe2_ctrl.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_pipe2_dpath.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_state.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_state_wrap.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_tag.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_tag_wrap.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_smc.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_smc_wrap.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_config_regs.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_priority_encoder.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_broadcast_counter.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/l2_broadcast_counter_wrap.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/sram_wrappers/sram_l2_tag.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/sram_wrappers/sram_l2_data.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/sram_wrappers/sram_l2_state.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l2/rtl/sram_wrappers/sram_l2_dir.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_control.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_route_request_calc.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_top_16.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_top_4.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_control.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_datapath.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_top.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_control_para.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_route_request_calc_para.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_top_16_para.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_input_top_4_para.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_control_para.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_datapath_para.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/dynamic/rtl/dynamic_output_top_para.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/bus_compare_equal.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/flip_bus.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/one_of_eight.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/one_of_five.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/one_of_n.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/one_of_n_plus_3.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/components/rtl/net_dff.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/common/rtl/network_input_blk_multi_out.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/common/rtl/space_avail_top.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/rtl/dynamic_node_top_wrap.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/rtl/dynamic_node_top.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/rtl/dynamic_node_top_wrap_para.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dynamic_node/rtl/dynamic_node_top_para.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/dmbr/rtl/dmbr.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/srams/rtl/bw_r_rf16x160.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/credit_to_valrdy.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/valrdy_to_credit.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/flat_id_to_xy.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/xy_to_flat_id.tmp.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/ucb_bus_in.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/ucb_bus_out.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/ucb_flow_2buf.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/ucb_flow_spi.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/ucb_noflow.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/cluster_header.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/cluster_header_sync.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/cluster_header_dup.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/cluster_header_ctu.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/synchronizer_asr.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/synchronizer_asr_dup.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/sync_pulse_synchronizer.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/clk_gating_latch.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/swrvr_dlib.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/mul64.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/swrvr_clib.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/u1.beh.v
+-v /home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/common/rtl/m1.beh.v
++incdir+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/include/
++incdir+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/util/
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/include/riscv_pkg.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/riscv-dbg/src/dm_pkg.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/include/ariane_pkg.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/deprecated/rrarbiter.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/deprecated/fifo_v1.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/deprecated/fifo_v2.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/fifo_v3.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/lfsr_8bit.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/lzc.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/rr_arb_tree.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/rstgen_bypass.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/cdc_2phase.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/shift_reg.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/unread.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/popcount.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/common_cells/src/exp_backoff.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/register_interface/src/apb_to_reg.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/register_interface/src/reg_intf_pkg.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/register_interface/src/reg_intf.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpnew_pkg.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpu_div_sqrt_mvp/hdl/defs_div_sqrt_mvp.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpu_div_sqrt_mvp/hdl/control_mvp.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpu_div_sqrt_mvp/hdl/div_sqrt_mvp_wrapper.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpu_div_sqrt_mvp/hdl/div_sqrt_top_mvp.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpu_div_sqrt_mvp/hdl/iteration_div_sqrt_mvp.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpu_div_sqrt_mvp/hdl/norm_div_sqrt_mvp.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpu_div_sqrt_mvp/hdl/nrbd_nrsc_mvp.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpu_div_sqrt_mvp/hdl/preprocess_mvp.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpnew_cast_multi.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpnew_classifier.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpnew_divsqrt_multi.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpnew_fma_multi.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpnew_fma.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpnew_noncomp.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpnew_opgroup_block.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpnew_opgroup_fmt_slice.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpnew_opgroup_multifmt_slice.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpnew_rounding.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu/src/fpnew_top.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/axi/src/axi_pkg.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/tb/ariane_soc_pkg.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/include/ariane_axi_pkg.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/include/wt_cache_pkg.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/include/axi_intf.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/include/instr_tracer_pkg.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/util/instr_tracer_if.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/util/instr_tracer.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/util/sram.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/util/axi_master_connect.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/util/axi_master_connect_rev.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/util/axi_slave_connect.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/util/axi_slave_connect_rev.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpga-support/rtl/SyncSpRamBeNx64.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/axi_mem_if/src/axi2mem.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/tech_cells_generic/src/pulp_clock_gating.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/tech_cells_generic/src/cluster_clock_inverter.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/tech_cells_generic/src/pulp_clock_mux2.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/axi_adapter.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/alu.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/fpu_wrap.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/ariane.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/branch_unit.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/compressed_decoder.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/controller.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/csr_buffer.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/csr_regfile.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/decoder.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/ex_stage.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/instr_realign.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/frontend/btb.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/frontend/bht.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/frontend/ras.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/frontend/instr_scan.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/frontend/instr_queue.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/frontend/frontend.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/id_stage.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/issue_read_operands.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/issue_stage.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/load_unit.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/load_store_unit.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/mmu.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/mult.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/multiplier.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/serdiv.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/perf_counters.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/ptw.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/ariane_regfile_ff.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/re_name.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/scoreboard.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/store_buffer.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/amo_buffer.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/store_unit.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/tlb.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/commit_stage.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/cache_subsystem/wt_dcache_ctrl.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/cache_subsystem/wt_dcache_mem.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/cache_subsystem/wt_dcache_missunit.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/cache_subsystem/wt_dcache_wbuffer.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/cache_subsystem/wt_dcache.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/cache_subsystem/wt_icache.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/cache_subsystem/wt_l15_adapter.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/cache_subsystem/wt_cache_subsystem.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/clint/clint.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/clint/axi_lite_interface.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/riscv-dbg/src/dm_csrs.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/riscv-dbg/src/dm_mem.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/riscv-dbg/src/dm_top.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/riscv-dbg/src/dmi_cdc.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/riscv-dbg/src/dmi_jtag.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/riscv-dbg/src/dm_sba.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/riscv-dbg/src/dmi_jtag_tap.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/riscv-dbg/debug_rom/debug_rom.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/openpiton/ariane_verilog_wrap.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/openpiton/riscv_peripherals.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/openpiton/bootrom/baremetal/bootrom.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/openpiton/bootrom/linux/bootrom_linux.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/rv_plic/rtl/rv_plic_target.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/rv_plic/rtl/rv_plic_gateway.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/rv_plic/rtl/plic_regmap.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/src/rv_plic/rtl/plic_top.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/fpga/src/axi2apb/src/axi2apb_wrap.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/fpga/src/axi2apb/src/axi2apb.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/fpga/src/axi2apb/src/axi2apb_64_32.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/fpga/src/axi_slice/src/axi_w_buffer.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/fpga/src/axi_slice/src/axi_b_buffer.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/fpga/src/axi_slice/src/axi_slice_wrap.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/fpga/src/axi_slice/src/axi_slice.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/fpga/src/axi_slice/src/axi_single_slice.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/fpga/src/axi_slice/src/axi_ar_buffer.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/fpga/src/axi_slice/src/axi_r_buffer.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/fpga/src/axi_slice/src/axi_aw_buffer.sv
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_wrap.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_mshr.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/rf_l15_lruarray.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/rf_l15_mesi.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/rf_l15_lrsc_flag.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/rf_l15_wmt.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_cpxencoder.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/pcx_buffer.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/pcx_decoder.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/noc1encoder.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/noc1buffer.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/noc3encoder.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/noc3buffer.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/noc2decoder.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/simplenocbuffer.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_csm.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_hmc.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_home_encoder.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_priority_encoder.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/sram_wrappers/sram_l15_tag.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/sram_wrappers/sram_l15_data.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/sram_wrappers/sram_l15_hmt.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/pico_decoder.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_picoencoder.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/rtap/rtl/rtap.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/rtap/rtl/rtap_ucb_receiver.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/rtap/rtl/rtap_ucb_transmitter.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/rtl/config_regs.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/rtl/cpx_arbitrator.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/rtl/tile.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/rtl/ccx_l15_transducer.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/rtl/pico_l15_transducer.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/jtag/rtl/jtag.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/jtag/rtl/jtag_interface.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/jtag/rtl/jtag_interface_tap.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/jtag/rtl/jtag_ctap.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/jtag/rtl/jtag_ucb_receiver.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/jtag/rtl/jtag_ucb_transmitter.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/pll/rtl/clk_mux.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/pll/rtl/clk_se_to_diff.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/pll/rtl/pll_top.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/rtl/chip.tmp.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/rtl/OCI.v
+/home/yc0769/ece475/proj/openpiton/piton/design/rtl/system.v
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/include/mc_define.h
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/include/uart16550_define.vh
+/home/yc0769/ece475/proj/openpiton/piton/design/chipset/include/chipset_define.vh
+/home/yc0769/ece475/proj/openpiton/piton/design/common/rtl/chip_rst_seq.v
+/home/yc0769/ece475/proj/openpiton/piton/design/common/rtl/alarm_counter.v
+/home/yc0769/ece475/proj/openpiton/piton/design/common/rtl/async_fifo.v
+/home/yc0769/ece475/proj/openpiton/piton/design/common/rtl/bram_1rw_wrapper.v
+/home/yc0769/ece475/proj/openpiton/piton/design/common/rtl/bram_1r1w_wrapper.v
+/home/yc0769/ece475/proj/openpiton/piton/design/common/rtl/synchronizer.v
+/home/yc0769/ece475/proj/openpiton/piton/design/include/define.tmp.h
+/home/yc0769/ece475/proj/openpiton/piton/design/include/l2.tmp.h
+/home/yc0769/ece475/proj/openpiton/piton/design/include/l15.tmp.h
+/home/yc0769/ece475/proj/openpiton/piton/design/include/lsu.tmp.h
+/home/yc0769/ece475/proj/openpiton/piton/design/include/ifu.tmp.h
