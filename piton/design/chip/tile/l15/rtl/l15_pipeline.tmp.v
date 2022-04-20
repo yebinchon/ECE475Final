@@ -2697,6 +2697,8 @@ begin
     lru_used_bits_s2[`L15_WAY_ARRAY_MASK] = lruarray_l15_dout_s2[`L15_LRUARRAY_USED_MASK];
     lru_round_robin_turn_s2[`L15_WAY_MASK] = lruarray_l15_dout_s2[`L15_LRUARRAY_RR_MASK];
     lru_way_s2 = 0;
+
+`ifdef RP_L15_LRU
     if (&lru_used_bits_s2 == 1'b1)
     begin
         // if all were used
@@ -2735,6 +2737,17 @@ begin
             end
         endcase
     end
+
+`endif
+
+`ifdef RP_L15_ROUNDROBIN
+    lru_way_s2[`L15_WAY_MASK] = lru_round_robin_turn_s2;
+`endif
+
+`ifdef RP_L15_RANDOM
+
+`endif
+
 end
 
 //////////////////////////////

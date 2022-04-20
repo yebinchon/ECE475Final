@@ -1,1 +1,1 @@
-truncate diag.o -s +88 
+truncate diag.o -s +40 

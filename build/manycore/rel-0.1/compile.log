@@ -22,7 +22,7 @@ Command: vcs -full64 -L/home/yc0769/ece475/proj/openpiton/piton/tools/Linux/x86_
 -picarchive +rad -sverilog +vpi -gen_obj -f flist -P /usr/licensed/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcsdstub.tab \
 +define+UVM_DIRECTC_OPTS  
                          Chronologic VCS (TM)
-       Version O-2018.09-SP2_Full64 -- Wed Apr 13 14:52:05 2022
+       Version O-2018.09-SP2_Full64 -- Wed Apr 20 15:02:26 2022
                Copyright (c) 1991-2018 by Synopsys Inc.
                          ALL RIGHTS RESERVED
 
@@ -23014,7 +23014,7 @@ bootrom, "(addr_q < RomSize)"
 
 
 Lint-[ULCO] Unequal length in comparison operator
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/openpiton/bootrom/linux/bootrom_linux.sv, 866
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/ariane/openpiton/bootrom/linux/bootrom_linux.sv, 864
 bootrom_linux, "(addr_q < RomSize)"
   A left 10-bit expression is compared to a right 32-bit expression.
   Comparing 'addr_q' of type logic [($clog2(RomSize) - 1):0]
@@ -24366,7 +24366,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2747
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2760
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: s2_mshr_val_s2 = 0;
@@ -24374,7 +24374,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2748
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2761
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: s2_mshr_mshrid_s2 = 0;
@@ -24382,7 +24382,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2752
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2765
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: s2_mshr_val_s2 = 1;
@@ -24390,7 +24390,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2784
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2797
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: dcache_val_s2 = 0;
@@ -24398,7 +24398,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2785
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2798
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: dcache_rw_s2 = 0;
@@ -24406,7 +24406,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2786
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2799
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 7-bit LHS target:
   Source info: dcache_index_s2 = 0;
@@ -24414,7 +24414,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2787
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2800
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: dcache_way_s2 = 0;
@@ -24422,7 +24422,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2788
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2801
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 128-bit LHS target:
   Source info: dcache_mshr_write_mask_s2 = 0;
@@ -24430,7 +24430,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2789
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2802
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 128-bit LHS target:
   Source info: dcache_write_merge_mshr_noc2_s2 = 0;
@@ -24438,7 +24438,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2790
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2803
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 3-bit LHS target:
   Source info: dcache_source_s2 = 0;
@@ -24446,7 +24446,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2791
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2804
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 128-bit LHS target:
   Source info: dcache_write_mask_s2 = 0;
@@ -24454,7 +24454,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2792
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2805
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 128-bit LHS target:
   Source info: dcache_write_data_s2 = 0;
@@ -24462,7 +24462,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2946
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2959
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 30-bit LHS target:
   Source info: l15_hmt_write_data_s2[(((14 + 8) + 8) - 1):0] = 0;
@@ -24470,7 +24470,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2953
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2966
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 30-bit LHS target:
   Source info: l15_hmt_write_mask_s2 = 0;
@@ -24478,7 +24478,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[ULCO] Unequal length in comparison operator
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2954
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2967
 l15_pipeline, "(hmt_op_s2 == 1'b1)"
   A left 33-bit expression is compared to a right 1-bit expression.
   Comparing 'hmt_op_s2' of type reg [(33 - 1):0]
@@ -24486,7 +24486,7 @@ l15_pipeline, "(hmt_op_s2 == 1'b1)"
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2977
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2990
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: mesi_write_val_s2 = 0;
@@ -24494,7 +24494,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2978
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2991
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 7-bit LHS target:
   Source info: mesi_write_index_s2 = 0;
@@ -24502,7 +24502,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2979
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2992
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: mesi_write_way_s2 = 0;
@@ -24510,7 +24510,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2980
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 2993
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: mesi_write_state_s2 = 0;
@@ -24518,7 +24518,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3046
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3059
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: lrsc_flag_write_val_s2 = 0;
@@ -24526,7 +24526,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3047
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3060
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 7-bit LHS target:
   Source info: lrsc_flag_write_index_s2 = 0;
@@ -24534,7 +24534,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3048
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3061
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: lrsc_flag_write_way_s2 = 0;
@@ -24542,7 +24542,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3049
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3062
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: lrsc_flag_write_state_s2 = 0;
@@ -24550,7 +24550,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3121
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3134
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 128-bit LHS target:
   Source info: csm_fill_data = 0;
@@ -24558,7 +24558,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3122
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3135
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: csm_req_val_s2 = 0;
@@ -24566,7 +24566,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3123
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3136
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: csm_req_type_s2 = 0;
@@ -24574,7 +24574,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3124
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3137
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: csm_req_lru_address_s2 = 0;
@@ -24582,7 +24582,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3125
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3138
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 40-bit LHS target:
   Source info: csm_address_s2 = 0;
@@ -24590,7 +24590,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3221
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3234
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: wmt_read_val_s2 = 0;
@@ -24598,7 +24598,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3222
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3235
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 7-bit LHS target:
   Source info: wmt_read_index_s2 = 0;
@@ -24606,7 +24606,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3248
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3261
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: config_req_val_s2 = 0;
@@ -24614,7 +24614,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3249
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3262
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: config_req_rw_s2 = 0;
@@ -24622,7 +24622,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3250
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3263
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 64-bit LHS target:
   Source info: config_write_req_data_s2 = 0;
@@ -24630,7 +24630,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3251
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3264
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 40-bit LHS target:
   Source info: config_req_address_s2 = 0;
@@ -24638,7 +24638,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3384
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3397
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: cpxencoder_req_staled_s3 <= 0;
@@ -24646,7 +24646,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3385
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3398
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: noc1encoder_req_staled_s3 <= 0;
@@ -24654,7 +24654,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3386
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3399
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: noc3encoder_req_staled_s3 <= 0;
@@ -24662,7 +24662,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3387
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3400
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: val_s3 <= 0;
@@ -24670,7 +24670,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3388
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3401
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 6-bit LHS target:
   Source info: lru_data_s3 <= 0;
@@ -24678,7 +24678,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3389
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3402
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: tagcheck_way_s3 <= 0;
@@ -24686,7 +24686,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3390
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3403
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: tagcheck_state_s3 <= 0;
@@ -24694,7 +24694,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3391
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3404
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: tagcheck_lrsc_flag_s3 <= 0;
@@ -24702,7 +24702,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3392
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3405
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: flush_way_s3 <= 0;
@@ -24710,7 +24710,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3393
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3406
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: flush_state_s3 <= 0;
@@ -24718,7 +24718,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3394
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3407
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: lru_way_s3 <= 0;
@@ -24726,7 +24726,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3395
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3408
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: lru_state_s3 <= 0;
@@ -24734,7 +24734,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3396
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3409
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: mshrid_s3 <= 0;
@@ -24742,7 +24742,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3397
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3410
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 40-bit LHS target:
   Source info: address_s3 <= 0;
@@ -24750,7 +24750,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3398
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3411
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: threadid_s3 <= 0;
@@ -24758,7 +24758,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3399
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3412
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: non_cacheable_s3 <= 0;
@@ -24766,7 +24766,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3400
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3413
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 3-bit LHS target:
   Source info: size_s3 <= 0;
@@ -24774,7 +24774,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3401
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3414
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: prefetch_s3 <= 0;
@@ -24782,7 +24782,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3402
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3415
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: l1_replacement_way_s3 <= 0;
@@ -24790,7 +24790,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3403
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3416
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l2_miss_s3 <= 0;
@@ -24798,7 +24798,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3404
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3417
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: f4b_s3 <= 0;
@@ -24806,7 +24806,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3405
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3418
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: blockstore_s3 <= 0;
@@ -24814,7 +24814,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3406
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3419
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: blockstoreinit_s3 <= 0;
@@ -24822,7 +24822,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3407
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3420
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 30-bit LHS target:
   Source info: noc2_src_homeid_s3 <= 0;
@@ -24830,7 +24830,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3408
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3421
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 3-bit LHS target:
   Source info: lruarray_write_op_s3 <= 0;
@@ -24838,7 +24838,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3409
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3422
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: predecode_noc2_inval_s3 <= 0;
@@ -24846,7 +24846,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3410
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3423
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 4-bit LHS target:
   Source info: predecode_fwd_subcacheline_vector_s3 <= 0;
@@ -24854,7 +24854,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3411
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3424
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 6-bit LHS target:
   Source info: predecode_reqtype_s3 <= 0;
@@ -24862,7 +24862,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3412
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3425
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 3-bit LHS target:
   Source info: wmt_write_op_s3 <= 0;
@@ -24870,7 +24870,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3413
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3426
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 3-bit LHS target:
   Source info: wmt_compare_op_s3 <= 0;
@@ -24878,7 +24878,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3414
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3427
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 3-bit LHS target:
   Source info: csm_ticket_s3 <= 0;
@@ -24886,7 +24886,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3415
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3428
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 3-bit LHS target:
   Source info: s3_mshr_operation_s3 <= 0;
@@ -24894,7 +24894,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3416
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3429
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 5-bit LHS target:
   Source info: cpx_operation_s3 <= 0;
@@ -24902,7 +24902,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3417
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3430
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 5-bit LHS target:
   Source info: noc1_operation_s3 <= 0;
@@ -24910,7 +24910,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3418
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3431
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 4-bit LHS target:
   Source info: noc3_operations_s3 <= 0;
@@ -24918,7 +24918,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3419
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3432
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: pcx_ack_stage_s3 <= 0;
@@ -24926,7 +24926,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3420
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3433
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: noc2_ack_stage_s3 <= 0;
@@ -24934,7 +24934,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3421
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3434
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: noc2_ack_state_s3 <= 0;
@@ -24942,7 +24942,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3422
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3435
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 29-bit LHS target:
   Source info: lru_way_tag_s3 <= 0;
@@ -24950,7 +24950,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3423
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3436
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 29-bit LHS target:
   Source info: flush_way_tag_s3 <= 0;
@@ -24958,7 +24958,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3424
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3437
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 33-bit LHS target:
   Source info: csm_pcx_data_s3 <= 0;
@@ -24966,7 +24966,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3743
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3756
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: wmt_compare_data_s3 = 0;
@@ -24974,7 +24974,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3744
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3757
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: wmt_compare_way_s3 = 0;
@@ -24982,7 +24982,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3799
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3812
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: wmt_compare_match_way_s3 = 0;
@@ -24990,7 +24990,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3801
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3814
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: wmt_compare_match_way_s3 = 0;
@@ -24998,7 +24998,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3803
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3816
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: wmt_compare_match_way_s3 = 1;
@@ -25006,7 +25006,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3805
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3818
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: wmt_compare_match_way_s3 = 2;
@@ -25014,7 +25014,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3807
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3820
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: wmt_compare_match_way_s3 = 3;
@@ -25022,7 +25022,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3824
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3837
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 6-bit LHS target:
   Source info: lruarray_write_data_s3 = 0;
@@ -25030,7 +25030,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3825
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3838
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: lruarray_write_val_s3 = 0;
@@ -25038,7 +25038,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3936
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3949
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: wmt_write_val_s3 = 0;
@@ -25046,7 +25046,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3937
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3950
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 7-bit LHS target:
   Source info: wmt_write_index_s3 = 0;
@@ -25054,7 +25054,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3939
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3952
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: wmt_write_inval_val_s3 = 0;
@@ -25062,7 +25062,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3940
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3953
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: wmt_write_update_val_s3 = 0;
@@ -25070,7 +25070,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3941
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3954
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: wmt_write_dedup_l1way_val_s3 = 0;
@@ -25078,7 +25078,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3943
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3956
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: wmt_write_update_way_s3 = 0;
@@ -25086,7 +25086,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3944
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3957
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: wmt_write_update_data_s3 = 0;
@@ -25094,7 +25094,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3948
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3961
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 12-bit LHS target:
   Source info: wmt_write_inval_mask_s3 = 0;
@@ -25102,7 +25102,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3949
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3962
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 12-bit LHS target:
   Source info: wmt_write_update_mask_s3 = 0;
@@ -25110,7 +25110,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3950
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 3963
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 12-bit LHS target:
   Source info: wmt_write_dedup_mask_s3 = 0;
@@ -25118,7 +25118,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4001
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4014
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 12-bit LHS target:
   Source info: wmt_write_update_mask_s3[((4 * ((2 + 0) + 1)) - 1):0] = 0;
@@ -25126,7 +25126,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4045
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4058
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 12-bit LHS target:
   Source info: wmt_write_inval_mask_s3[((4 * ((2 + 0) + 1)) - 1):0] = 0;
@@ -25134,7 +25134,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4108
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4121
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: s3_mshr_val_s3 = 0;
@@ -25142,7 +25142,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4109
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4122
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 3-bit LHS target:
   Source info: s3_mshr_write_type_s3 = 0;
@@ -25150,7 +25150,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4110
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4123
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: s3_mshr_write_mshrid_s3 = 0;
@@ -25158,7 +25158,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4111
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4124
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: s3_mshr_update_state_s3 = 0;
@@ -25166,7 +25166,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4112
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4125
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: s3_mshr_update_way_s3 = 0;
@@ -25174,7 +25174,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4187
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4200
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: cpx_req_val_s3 = 0;
@@ -25182,7 +25182,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4188
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4201
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 4-bit LHS target:
   Source info: cpx_type_s3 = 0;
@@ -25190,7 +25190,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4189
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4202
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: cpx_invalidate_l1_s3 = 0;
@@ -25198,7 +25198,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4191
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4204
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: cpx_inval_way_s3 = 0;
@@ -25206,7 +25206,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4192
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4205
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 3-bit LHS target:
   Source info: cpx_data_source_s3 = 0;
@@ -25214,7 +25214,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4193
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4206
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: cpx_atomic_bit_s3 = 0;
@@ -25222,7 +25222,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4194
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4207
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: cpx_icache_inval_s3 = 0;
@@ -25230,7 +25230,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4200
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4213
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: cpx_icache_inval_s3 = 1;
@@ -25238,7 +25238,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4206
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4219
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: cpx_invalidate_l1_s3 = 1;
@@ -25246,7 +25246,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4213
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4226
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: cpx_invalidate_l1_s3 = 1;
@@ -25254,7 +25254,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4220
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4233
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: cpx_invalidate_l1_s3 = 1;
@@ -25262,7 +25262,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4227
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4240
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: cpx_invalidate_l1_s3 = 1;
@@ -25270,7 +25270,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4264
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4277
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: cpx_atomic_bit_s3 = 1;
@@ -25278,7 +25278,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4298
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4311
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: cpx_atomic_bit_s3 = 1;
@@ -25286,7 +25286,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4338
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4351
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_l2miss = 0;
@@ -25294,7 +25294,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4339
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4352
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: l15_cpxencoder_error[1:0] = 0;
@@ -25302,7 +25302,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4340
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4353
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_noncacheable = 0;
@@ -25310,7 +25310,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4341
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4354
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_threadid = 0;
@@ -25318,7 +25318,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4342
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4355
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_prefetch = 0;
@@ -25326,7 +25326,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4343
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4356
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_f4b = 0;
@@ -25334,7 +25334,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4344
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4357
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_atomic = 0;
@@ -25342,7 +25342,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4345
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4358
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_inval_icache_all_way = 0;
@@ -25350,7 +25350,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4346
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4359
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_inval_dcache_all_way = 0;
@@ -25358,7 +25358,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4347
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4360
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 12-bit LHS target:
   Source info: l15_cpxencoder_inval_address_15_4[15:4] = 0;
@@ -25366,7 +25366,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4348
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4361
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_cross_invalidate = 0;
@@ -25374,7 +25374,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4349
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4362
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: l15_cpxencoder_cross_invalidate_way[1:0] = 0;
@@ -25382,7 +25382,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4350
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4363
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_inval_dcache_inval = 0;
@@ -25390,7 +25390,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4351
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4364
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_inval_icache_inval = 0;
@@ -25398,7 +25398,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4352
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4365
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: l15_cpxencoder_inval_way[1:0] = 0;
@@ -25406,7 +25406,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4353
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4366
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_blockinitstore = 0;
@@ -25414,7 +25414,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4366
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4379
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_cross_invalidate = 0;
@@ -25422,7 +25422,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4370
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4383
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_cpxencoder_inval_icache_inval = 0;
@@ -25430,7 +25430,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4375
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4388
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 64-bit LHS target:
   Source info: l15_cpxencoder_data_0[63:0] = 0;
@@ -25438,7 +25438,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4376
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4389
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 64-bit LHS target:
   Source info: l15_cpxencoder_data_1[63:0] = 0;
@@ -25446,7 +25446,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4377
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4390
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 64-bit LHS target:
   Source info: l15_cpxencoder_data_2[63:0] = 0;
@@ -25454,7 +25454,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4378
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4391
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 64-bit LHS target:
   Source info: l15_cpxencoder_data_3[63:0] = 0;
@@ -25462,7 +25462,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4418
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4431
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 30-bit LHS target:
   Source info: expanded_hmt_homeid_s3 = 0;
@@ -25470,7 +25470,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4433
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4446
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: noc1_req_val_s3 = 0;
@@ -25478,7 +25478,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4434
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4447
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 5-bit LHS target:
   Source info: noc1_type_s3 = 0;
@@ -25486,7 +25486,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4435
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4448
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: noc1_data_source_s3 = 0;
@@ -25494,7 +25494,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4436
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4449
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: noc1_homeid_not_required_s3 = 0;
@@ -25502,7 +25502,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4437
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4450
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: creditman_noc1_mispredicted_s3 = 0;
@@ -25510,7 +25510,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4438
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4451
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: creditman_noc1_reserve_s3 = 0;
@@ -25518,7 +25518,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4439
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4452
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 40-bit LHS target:
   Source info: l15_noc1buffer_req_address = 0;
@@ -25526,7 +25526,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4440
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4453
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: noc1_homeid_source_s3 = 0;
@@ -25534,7 +25534,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4447
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4460
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: creditman_noc1_mispredicted_s3 = (noc1_req_val_s3 ? 0 : 
@@ -25543,7 +25543,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4455
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4468
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: creditman_noc1_mispredicted_s3 = (noc1_req_val_s3 ? 0 : 
@@ -25552,7 +25552,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4463
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4476
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: creditman_noc1_mispredicted_s3 = (noc1_req_val_s3 ? 0 : 
@@ -25561,7 +25561,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4617
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4630
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 64-bit LHS target:
   Source info: l15_noc1buffer_req_data_0[63:0] = 0;
@@ -25569,7 +25569,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4618
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4631
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 64-bit LHS target:
   Source info: l15_noc1buffer_req_data_1[63:0] = 0;
@@ -25577,7 +25577,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4635
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4648
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 30-bit LHS target:
   Source info: l15_noc1buffer_req_homeid = 0;
@@ -25585,7 +25585,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4636
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4649
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: l15_noc1buffer_req_homeid_val = 0;
@@ -25593,7 +25593,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4647
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4660
   Width mismatch between LHS and RHS is found in assignment:
   The following 64-bit wide expression is assigned to a 30-bit LHS target:
   Source info: l15_noc1buffer_req_homeid = csm_l15_res_data_s3;
@@ -25601,7 +25601,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4672
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4685
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: noc3_req_val_s3 = 0;
@@ -25609,7 +25609,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4673
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4686
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 3-bit LHS target:
   Source info: noc3_type_s3 = 0;
@@ -25617,7 +25617,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4674
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4687
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: noc3_with_data_s3 = 0;
@@ -25625,7 +25625,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4675
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4688
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 40-bit LHS target:
   Source info: noc3_address_s3 = 0;
@@ -25633,7 +25633,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4676
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4689
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 2-bit LHS target:
   Source info: noc3_homeid_source_s3 = 0;
@@ -25641,7 +25641,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4683
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4696
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: noc3_with_data_s3 = 1;
@@ -25649,7 +25649,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4691
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4704
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: noc3_with_data_s3 = 1;
@@ -25657,7 +25657,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4699
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4712
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: noc3_with_data_s3 = 1;
@@ -25665,7 +25665,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4715
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4728
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: noc3_with_data_s3 = 1;
@@ -25673,7 +25673,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4731
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4744
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 1-bit LHS target:
   Source info: noc3_with_data_s3 = 1;
@@ -25681,7 +25681,7 @@ Lint-[WMIA-L] Width mismatch in assignment
 
 
 Lint-[WMIA-L] Width mismatch in assignment
-/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4755
+/home/yc0769/ece475/proj/openpiton/piton/design/chip/tile/l15/rtl/l15_pipeline.tmp.v, 4768
   Width mismatch between LHS and RHS is found in assignment:
   The following 32-bit wide expression is assigned to a 30-bit LHS target:
   Source info: l15_noc3encoder_req_homeid = 0;
@@ -38785,120 +38785,74 @@ Starting final transformation pass...
 Starting vcs inline pass...
 110 modules and 2 UDPs read.
 Generating code for _VCSgd_hEeZs
-recompiling package vcs_paramclassrepository
 Generating code for _VCSgd_KyyjF
 Generating code for _VCSgd_reYIK
 Generating code for _VCSgd_zr7M1
-recompiling package uvm_pkg
 Generating code for _VCSgd_capjj
-recompiling module io_xbar_input_control
 Generating code for _VCSgd_ARRrn
-recompiling module io_xbar_input_top_4
 Generating code for _VCSgd_CgqZg
-recompiling module io_xbar_output_control
 Generating code for _VCSgd_Nv8yv
-recompiling module io_xbar_space_avail_top
 Generating code for _VCSgd_x4swd
-recompiling module io_xbar_top
 Generating code for _VCSgd_U7vst
-recompiling module noc_axilite_bridge
 Generating code for _VCSgd_qBDjt
 Generating code for _VCSgd_PuyS1
-recompiling module fake_mem_ctrl
 Generating code for _VCSgd_RdFdZ
-recompiling module manycore_network_mon
 Generating code for _VCSgd_HFrA4
-recompiling module fake_pll
 Generating code for _VCSgd_TefzH
 recompiling module cmp_top
 Generating code for _VCSgd_tvw61
-recompiling module fake_uart
 Generating code for _VCSgd_gWQCM
-recompiling module sync_fifo
 Generating code for _VCSgd_V1n7W
 Generating code for _VCSgd_e9eQd
-recompiling module chip_bridge
 Generating code for _VCSgd_nLsaS
 recompiling module chipset
 Generating code for _VCSgd_yVnyw
-recompiling module packet_filter
 Generating code for _VCSgd_wZt3g
 Generating code for _VCSgd_nFMJP
 Generating code for _VCSgd_imctp
-recompiling module l2
 Generating code for _VCSgd_FvFNC
-recompiling module l2_data_wrap
 Generating code for _VCSgd_LSdwh
-recompiling module l2_data_pgen
 Generating code for _VCSgd_ApNEx
-recompiling module l2_data_ecc
 Generating code for _VCSgd_gJxPc
-recompiling module l2_dir_wrap
 Generating code for _VCSgd_Lb4w5
-recompiling module l2_mshr_wrap
 Generating code for _VCSgd_fKM7p
-recompiling module l2_pipe1_buf_in
 Generating code for _VCSgd_LmGpw
-recompiling module l2_pipe1_buf_out
 Generating code for _VCSgd_aBrR8
-recompiling module l2_pipe2
 Generating code for _VCSgd_hDCkR
-recompiling module l2_state_wrap
 Generating code for _VCSgd_a8LM4
-recompiling module l2_tag_wrap
 Generating code for _VCSgd_Jv4Vy
-recompiling module l2_smc_wrap
 Generating code for _VCSgd_pkVs5
-recompiling module l2_config_regs
 Generating code for _VCSgd_uJCHU
-recompiling module l2_priority_encoder_4
 Generating code for _VCSgd_iInEd
-recompiling module l2_broadcast_counter
 Generating code for _VCSgd_kkVq2
-recompiling module l2_broadcast_counter_wrap
 Generating code for _VCSgd_ax2zf
-recompiling module dynamic_input_control
 Generating code for _VCSgd_Z4bbj
-recompiling module dynamic_output_top
 Generating code for _VCSgd_c3dtn
 Generating code for _VCSgd_D69Ce
-recompiling module network_input_blk_multi_out
 Generating code for _VCSgd_xvqcV
 Generating code for _VCSgd_BATuf
 Generating code for _VCSgd_MD7yx
-recompiling module space_avail_top
 Generating code for _VCSgd_FL2Mm
-recompiling module dynamic_node_top
 Generating code for _VCSgd_xxfjs
-recompiling module dmbr
 Generating code for _VCSgd_nMvLr
-recompiling module valrdy_to_credit
 Generating code for _VCSgd_DGSHT
 Generating code for _VCSgd_rk7T6
 Generating code for _VCSgd_UwvW4
 Generating code for _VCSgd_pELnn
 Generating code for _VCSgd_LIp1G
-recompiling module flat_id_to_xy
 Generating code for _VCSgd_FtHG5
-recompiling package riscv
 Generating code for _VCSgd_PyuhB
-recompiling package dm
 Generating code for _VCSgd_eEMMZ
-recompiling package ariane_pkg
 Generating code for _VCSgd_TbDs2
-recompiling module fifo_v3
 Generating code for _VCSgd_REsWU
 Generating code for _VCSgd_eBqfv
-recompiling module lfsr_8bit
 Generating code for _VCSgd_RJeFR
-recompiling module lzc
 Generating code for _VCSgd_qprAD
 Generating code for _VCSgd_RGJ0R
 Generating code for _VCSgd_hw2Bx
 Generating code for _VCSgd_r0iRk
 Generating code for _VCSgd_hHdfg
 Generating code for _VCSgd_i3P6C
-recompiling module rr_arb_tree
 Generating code for _VCSgd_J8xZ0
 Generating code for _VCSgd_JWH1j
 Generating code for _VCSgd_GaK59
@@ -38907,14 +38861,9 @@ Generating code for _VCSgd_QIUeU
 Generating code for _VCSgd_iDeI6
 Generating code for _VCSgd_ApW4G
 Generating code for _VCSgd_MEhxt
-recompiling package reg_intf
 Generating code for _VCSgd_ZPW3s
-recompiling package fpnew_pkg
 Generating code for _VCSgd_BpRsb
-50 of 110 modules done
-recompiling package defs_div_sqrt_mvp
 Generating code for _VCSgd_fEJa1
-recompiling module norm_div_sqrt_mvp
 Generating code for _VCSgd_PaMmr
 recompiling module preprocess_mvp
 Generating code for _VCSgd_Hsywc
@@ -38922,141 +38871,90 @@ recompiling module fpnew_opgroup_block
 Generating code for _VCSgd_JsDcx
 Generating code for _VCSgd_G9zMF
 Generating code for _VCSgd_p9GxR
-recompiling package axi_pkg
 Generating code for _VCSgd_UAeym
-recompiling package ariane_soc
 Generating code for _VCSgd_QDbbt
-recompiling package ariane_axi
 Generating code for _VCSgd_NMZDt
-recompiling package wt_cache_pkg
 Generating code for _VCSgd_Y0jvi
-recompiling module AXI_BUS
 Generating code for _VCSgd_HEzqI
-recompiling package instr_tracer_pkg
 Generating code for _VCSgd_KLvSs
-recompiling module instr_tracer_if
 Generating code for _VCSgd_BRZ3S
-recompiling module instr_tracer
 Generating code for _VCSgd_GDkZ9
-recompiling module sram
 Generating code for _VCSgd_Tx3q2
 Generating code for _VCSgd_qIjZ6
-recompiling module SyncSpRamBeNx64
 Generating code for _VCSgd_s9BI9
-recompiling module axi2mem
 Generating code for _VCSgd_Lvrb8
 Generating code for _VCSgd_QgKkn
-recompiling module alu
 Generating code for _VCSgd_DRHwz
-recompiling module fpu_wrap
 Generating code for _VCSgd_AjFIE
-recompiling module branch_unit
 Generating code for _VCSgd_KBY0m
-recompiling module controller
 Generating code for _VCSgd_JuYaN
-recompiling module csr_buffer
 Generating code for _VCSgd_chDxC
-recompiling module csr_regfile
 Generating code for _VCSgd_myPmn
-recompiling module frontend
 Generating code for _VCSgd_PnDPB
-recompiling module id_stage
 Generating code for _VCSgd_fCh4F
-recompiling module issue_stage
 Generating code for _VCSgd_SRUFi
-recompiling module mult
 Generating code for _VCSgd_R97Yc
-recompiling module perf_counters
 Generating code for _VCSgd_Fa2KV
-recompiling module tlb
 Generating code for _VCSgd_NeunD
-recompiling module commit_stage
 Generating code for _VCSgd_ZfZku
-recompiling module wt_dcache_ctrl
 Generating code for _VCSgd_M68cj
-recompiling module wt_icache
 Generating code for _VCSgd_RbnFb
-recompiling module wt_cache_subsystem
 Generating code for _VCSgd_qW9kS
-recompiling module clint
 Generating code for _VCSgd_GGMtq
-recompiling module dmi_jtag
 Generating code for _VCSgd_kpuwf
-recompiling module ariane_verilog_wrap
 Generating code for _VCSgd_tViey
-recompiling module plic_top
 Generating code for _VCSgd_i4kJp
-recompiling module rf_l15_lruarray
 Generating code for _VCSgd_LMRs6
-recompiling module rf_l15_mesi
 Generating code for _VCSgd_rdsYM
-recompiling module rf_l15_lrsc_flag
 Generating code for _VCSgd_s7Izf
-recompiling module rf_l15_wmt
 Generating code for _VCSgd_RJRyY
 recompiling module noc1encoder
 Generating code for _VCSgd_z7yAY
-recompiling module noc1buffer
 Generating code for _VCSgd_uqwxB
 recompiling module noc3encoder
 Generating code for _VCSgd_tGENK
-recompiling module noc2decoder
 Generating code for _VCSgd_tcAR6
-recompiling module simplenocbuffer
 Generating code for _VCSgd_nbVet
-recompiling module l15_priority_encoder_4
 Generating code for _VCSgd_NEp9r
-recompiling module rtap
 Generating code for _VCSgd_gFt2b
-recompiling module config_regs
 Generating code for _VCSgd_QNtIG
-recompiling module jtag
 Generating code for _VCSgd_h4Pec
-recompiling module async_fifo
 Generating code for _VCSgd_G53b3
 Generating code for _VCSgd_UYutH
 Generating code for _VCSgd_vJ29q
 Generating code for _VCSgd_Ms2Qs
 Generating code for _VCSgd_wiVq1
-recompiling module bram_1rw_wrapper
 Generating code for _VCSgd_g7zYD
-100 of 110 modules done
 Generating code for _VCSgd_c3TGC
 Generating code for _VCSgd_rF6Ju
-recompiling module monitor
 Generating code for _VCSgd_TB7Cw
-recompiling module tso_mon
 Generating code for _VCSgd_ztMtA
-recompiling module ciop_fake_iob
 Generating code for _VCSgd_BZrSJ
-recompiling module cmp_l15_messages_mon
 Generating code for _VCSgd_rB3QF
-recompiling module jtag_mon
 Generating code for _VCSgd_FnuYa
-recompiling module l2_mon
 Generating code for _VCSgd_gMUca
-recompiling module iob_mon
 Generating code for _VCSgd_YLsAR
-recompiling module ucb_bus_in
 Generating code for _VCSgd_iQjmf
-recompiling module ucb_bus_out
 Generating code for _VCSgd_vSiJu
-recompiling module clk_gating_latch
-All of 110 modules done
-( cd csrc ; make -f Makefile SNPS_VCS_TMPDIR=/tmp/vcs_20220413185204_1043735 product \
+6 of 110 modules done
+	However, due to incremental compilation, only 6 modules need to be compiled. 
+( cd csrc ; make -f Makefile SNPS_VCS_TMPDIR=/tmp/vcs_20220420190225_2118291 product \
 )
 rm -f _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic  -o .//../simv.daidir//_csrc0.so objs/amcQw_d.o 
+rm -f _csrc0.so
 if [ -x ../simv ]; then chmod -x ../simv; fi
 g++  -o ../simv    -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
 -Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir  -L/home/yc0769/ece475/proj/openpiton/piton/tools/Linux/x86_64/lib \
 -rdynamic -Wl,-E  -Wl,-rpath=/usr/licensed/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib \
 -L/usr/licensed/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib  /usr/licensed/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vpdlogstub.o \
-uvm_dpi.o   objs/amcQw_d.o   _1044531_archive_1.so objs/udps/zTfCi.o objs/udps/c2JdT.o \
-SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o \
--lnuma -lzerosoft_rt_stubs -lvirsim -lerrorinf -lsnpsmalloc -lvfs -lm -lc -lsocket_pli \
--liob -lmem_pli    -lvcsnew -lsimprofile -luclinative /usr/licensed/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcs_tls.o \
+uvm_dpi.o     _2119087_archive_1.so _prev_archive_1.so _csrc0.so objs/udps/zTfCi.o \
+objs/udps/c2JdT.o  SIM_l.o  _csrc0.so    rmapats_mop.o rmapats.o rmar.o rmar_nd.o \
+rmar_llvm_0_1.o rmar_llvm_0_0.o          -lnuma -lzerosoft_rt_stubs -lvirsim -lerrorinf \
+-lsnpsmalloc -lvfs -lm -lc -lsocket_pli -liob -lmem_pli    -lvcsnew -lsimprofile \
+-luclinative /usr/licensed/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcs_tls.o   \
 -Wl,-whole-archive -lvcsucli -Wl,-no-whole-archive       ./../simv.daidir/vc_hdrs.o \
 _vcs_pli_stub_.o   /usr/licensed/synopsys/vcs-mx/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o \
 -ldl -lm  -lc -lpthread -ldl 
 ../simv up to date
-CPU time: 14.615 seconds to compile + .386 seconds to elab + .321 seconds to link
+CPU time: 12.253 seconds to compile + .390 seconds to elab + .356 seconds to link
