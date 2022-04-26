@@ -2576,6 +2576,26 @@ end
 reg [`L15_WAY_ARRAY_MASK] lru_used_bits_s2;
 reg [`L15_WAY_MASK] lru_round_robin_turn_s2;
 // reg [`L15_WAY_MASK] lru_way_s2; // moved earlier for
+
+`ifdef RP_L15_RANDOM
+reg [`L15_WAY_MASK] l15_random_bits_counter_for_replacement;
+always @ (posedge clk)
+begin
+    if (!rst_n)
+    begin
+        l15_random_bits_counter_for_replacement <= 0;
+    end else begin
+        l15_random_bits_counter_for_replacement <= l15_random_bits_counter_for_replacement + 1;
+    end
+end
+
+always @ lru_round_robin_turn_s2
+begin
+    lru_way_s2[`L15_WAY_MASK] = l15_random_bits_counter_for_replacement;
+end
+
+`endif
+
 always @ *
 begin
     lru_used_bits_s2[`L15_WAY_ARRAY_MASK] = lruarray_l15_dout_s2[`L15_LRUARRAY_USED_MASK];
@@ -2624,12 +2644,8 @@ begin
 
 `endif
 
-`ifdef RP_L15_ROUNDROBIN
+`ifdef RP_L15_RR
     lru_way_s2[`L15_WAY_MASK] = lru_round_robin_turn_s2;
-`endif
-
-`ifdef RP_L15_RANDOM
-
 `endif
 
 end
