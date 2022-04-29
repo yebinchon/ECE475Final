@@ -724,6 +724,26 @@ for i in range(L2_WAYS):
 end
 */
  
+`ifdef RP_L2_PIPE1_RANDOM
+reg [`L2_RB_BITS-1:0] l2_random_bits_counter_for_replacement;
+reg [`L2_RB_BITS-1:0] l2_random_bits_counter_for_replacement_RRfiltered;
+always @ (posedge clk)
+begin
+    if (!rst_n)
+    begin
+        l2_random_bits_counter_for_replacement <= 0;
+    end else begin
+        l2_random_bits_counter_for_replacement <= l2_random_bits_counter_for_replacement + 1;
+    end
+end
+
+always @ (l2_rb_bits_S2)
+begin
+    l2_random_bits_counter_for_replacement_RRfiltered = l2_random_bits_counter_for_replacement;
+end
+
+`endif
+
 //pseudo LRU algorithm 
 always @ *
 begin
@@ -739,6 +759,8 @@ for i in range(L2_WAYS):
     print("        end")
 %>
     else
+
+`ifdef RP_L2_PIPE1_LRU
     begin
     case (l2_rb_bits_S2)
 <% 
@@ -763,6 +785,44 @@ for i in range(L2_WAYS):
     end
     endcase
     end
+`endif
+
+`ifdef RP_L2_PIPE1_RR
+    begin
+    case (l2_rb_bits_S2)
+<% 
+for i in range(L2_WAYS):
+    print("    %d\'d%d:" % (L2_WAYS_WIDTH, i))
+    print("    begin")
+    print("       l2_evict_way_sel_S2 = `L2_WAY_%d;" % ((i)%L2_WAYS))
+    print("    end")
+%>
+    default:
+    begin
+        l2_evict_way_sel_S2 = `L2_WAY_0;
+    end
+    endcase
+    end
+`endif
+
+`ifdef RP_L2_PIPE1_RANDOM
+    begin
+    case (l2_random_bits_counter_for_replacement_RRfiltered)
+<% 
+for i in range(L2_WAYS):
+    print("    %d\'d%d:" % (L2_WAYS_WIDTH, i))
+    print("    begin")
+    print("       l2_evict_way_sel_S2 = `L2_WAY_%d;" % ((i)%L2_WAYS))
+    print("    end")
+%>
+    default:
+    begin
+        l2_evict_way_sel_S2 = `L2_WAY_0;
+    end
+    endcase
+    end
+`endif
+
 end
 
 
