@@ -12,9 +12,9 @@
 #include <math.h>
 
 #define DUMP_CODE 1
-#define NR 1024
-#define NQ 1024
-#define NP 1024
+#define NR 4
+#define NQ 4
+#define NP 4
 
   static
 void init_array(int nr, int nq, int np,
